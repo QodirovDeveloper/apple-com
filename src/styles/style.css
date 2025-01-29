@@ -1,44 +1,47 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container
-{
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
   max-width: 1044px;
   margin: 0 auto;
   width: 100%;
 }
-.container-2
-{
+
+.container-2 {
   max-width: 1520px;
   margin: 0 auto;
   width: 100%;
 }
-.container-for-title
-{
+
+.container-for-title {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
-:root
-{
+
+:root {
   --color--green: #0071E3;
 }
-body
-{
+
+body {
   font-family: "Inter", serif;
 }
-.header
-{
+
+.header {
   backdrop-filter: blur(2px);
   position: fixed;
   width: 100%;
   background: #161617CC;
 }
-.nav
-{
+
+.nav {
   padding-top: 17px;
   padding-bottom: 16px;
   display: flex;
@@ -46,49 +49,49 @@ body
   align-items: center;
   column-gap: 30px;
 }
-.nav a:hover
-{
+
+.nav a:hover {
   text-decoration: underline;
   color: var(--color--green) !important;
 }
-.nav a
-{
+
+.nav a {
   transition: .4s;
   text-decoration: none;
   color: #fff;
 }
-.nav ul
-{
+
+.nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 25px;
 }
-.phone-one
-{
+
+.phone-one {
   color: #fff;
   background: url('../images/iphone1.png') no-repeat center / cover;
   height: 600px;
 }
-.phone-one__title
-{
+
+.phone-one__title {
   padding-top: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.phone-one__title h1
-{
+
+.phone-one__title h1 {
   font-family: Inter;
   font-size: 51.41px;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: -0.2800000011920929px;
 }
-.phone-one__title p
-{
+
+.phone-one__title p {
   font-family: Inter;
   font-size: 24.28px;
   font-weight: 400;
@@ -96,15 +99,15 @@ body
   letter-spacing: 0.19599999487400055px;
   padding-bottom: 20px;
 }
-.phone-one__button1:hover
-{
+
+.phone-one__button1:hover {
   transform: scale(103%);
   color: var(--color--green);
   border: 1px solid var(--color--green);
   background: rgba(0, 0, 0, 0);
 }
-.phone-one__button1
-{
+
+.phone-one__button1 {
   transition: .3s;
   cursor: pointer;
   padding: 12px 22px;
@@ -118,15 +121,15 @@ body
   line-height: 20px;
   letter-spacing: -0.37400001287460327px;
 }
-.phone-one__button2:hover
-{
+
+.phone-one__button2:hover {
   transform: scale(103%);
   border: 1px solid var(--color--green);
   background: var(--color--green);
   color: #fff;
 }
-.phone-one__button2
-{
+
+.phone-one__button2 {
   transition: .3s;
   cursor: pointer;
   margin-left: 17px;
@@ -141,31 +144,31 @@ body
   line-height: 20px;
   letter-spacing: -0.37400001287460327px;
 }
-.phone-two
-{
+
+.phone-two {
   margin-top: 12px;
   color: #fff;
   background: url('../images/iphone2.png') no-repeat center / cover;
   height: 600px;
 }
-.phone-two__title
-{
+
+.phone-two__title {
   padding-top: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.phone-two__title h1
-{
+
+.phone-two__title h1 {
   font-family: Inter;
   font-size: 51.41px;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: -0.2800000011920929px;
 }
-.phone-two__title p
-{
+
+.phone-two__title p {
   font-family: Inter;
   font-size: 24.28px;
   font-weight: 400;
@@ -173,15 +176,15 @@ body
   letter-spacing: 0.19599999487400055px;
   padding-bottom: 20px;
 }
-.phone-two__button1:hover
-{
+
+.phone-two__button1:hover {
   transform: scale(103%);
   color: #fff;
   border: 1px solid #fff;
   background: rgba(0, 0, 0, 0);
 }
-.phone-two__button1
-{
+
+.phone-two__button1 {
   transition: .3s;
   cursor: pointer;
   padding: 12px 22px;
@@ -195,15 +198,15 @@ body
   line-height: 20px;
   letter-spacing: -0.37400001287460327px;
 }
-.phone-two__button2:hover
-{
+
+.phone-two__button2:hover {
   transform: scale(103%);
   border: 1px solid #fff;
   background: #fff;
   color: #000;
 }
-.phone-two__button2
-{
+
+.phone-two__button2 {
   transition: .3s;
   cursor: pointer;
   margin-left: 17px;
@@ -218,23 +221,23 @@ body
   line-height: 20px;
   letter-spacing: -0.37400001287460327px;
 }
-.watch
-{
+
+.watch {
   margin-top: 12px;
   /* color: #fff; */
   background: url('../images/watch.png') no-repeat center / cover;
   height: 600px;
 }
-.watch__title
-{
+
+.watch__title {
   padding-top: 58px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.watch__title p
-{
+
+.watch__title p {
   font-family: Inter;
   font-size: 24.61px;
   font-weight: 600;
@@ -242,8 +245,8 @@ body
   letter-spacing: 0.19599999487400055px;
   padding-bottom: 7px;
 }
-.watch__title p+p
-{
+
+.watch__title p+p {
   font-family: Inter;
   font-size: 24.61px;
   font-weight: 400;
@@ -252,38 +255,37 @@ body
   padding-bottom: 19px;
 }
 
-.watch__title-h1
-{
+.watch__title-h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 5px;
 }
-.watch__title-h1 i
-{
+
+.watch__title-h1 i {
   padding-bottom: 5px;
 }
-.option
-{
+
+.option {
   margin-top: 15px;
   display: flex;
   gap: 15px;
 }
-.fitness__title
-{
+
+.fitness__title {
   padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.fitness__title button
-{
+
+.fitness__title button {
   cursor: pointer;
   margin-top: 14px;
 }
-.fitness__title span
-{
+
+.fitness__title span {
   font-family: Inter;
   font-size: 13.78px;
   font-weight: 400;
@@ -291,8 +293,8 @@ body
   letter-spacing: -0.2240000069141388px;
   color: #6E6E73;
 }
-.fitness__title p
-{
+
+.fitness__title p {
   font-family: Inter;
   font-size: 18.05px;
   font-weight: 400;
@@ -300,40 +302,39 @@ body
   line-height: 25px;
 }
 
-.fitness
-{
+.fitness {
   background: url('../images/girl.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
 }
-.imac
-{
+
+.imac {
   background: url('../images/imac.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
   color: #fff;
 }
-.ultra
-{
+
+.ultra {
   display: flex;
   color: #E96112 !important;
 }
-.iwatch
-{
+
+.iwatch {
   background: url('../images/iwatch.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
   color: #fff;
 }
-.fitness__button1:hover
-{
+
+.fitness__button1:hover {
   transform: scale(103%);
   border: 1px solid var(--color--green);
   background: #00000000;
   color: var(--color--green);
 }
-.fitness__button1
-{
+
+.fitness__button1 {
   transition: .3s;
   cursor: pointer;
   padding: 8px 16px;
@@ -342,16 +343,15 @@ body
   background: var(--color--green);
   color: #fff;
 }
-.fitness__button2:hover
 
-{
+.fitness__button2:hover {
   transform: scale(103%);
   border: 1px solid var(--color--green);
   background: var(--color--green);
   color: #fff;
 }
-.fitness__button2
-{
+
+.fitness__button2 {
   transition: .3s;
   cursor: pointer;
   padding: 8px 16px;
@@ -361,14 +361,14 @@ body
   color: var(--color--green);
   border-radius: 50px;
 }
-.iPad
-{
+
+.iPad {
   background: url('../images/ipad.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
 }
-.two-hands-p
-{
+
+.two-hands-p {
   font-family: Inter;
   font-size: 18.87px;
   font-weight: 400;
@@ -376,8 +376,8 @@ body
   letter-spacing: 0.23100000619888306px;
   text-align: center;
 }
-.card p
-{
+
+.card p {
   font-family: Inter;
   font-size: 18.87px;
   font-weight: 400;
@@ -385,68 +385,65 @@ body
   letter-spacing: 0.23100000619888306px;
   text-align: center;
 }
-.two-hands
-{
+
+.two-hands {
   background: url('../images/2iphone.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
 }
-.card
-{
+
+.card {
   background: url('../images/card.png')no-repeat center / cover;
   width: 753.6px;
   height: 464px;
 }
-.iPad-p
-{
+
+.iPad-p {
   margin-top: 10px;
 }
-.iPad-end
-{
+
+.iPad-end {
   display: flex;
   justify-content: center;
 }
-.iPad-end p
-{
+
+.iPad-end p {
   margin-top: 265px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
 }
-.iPad-end-p
-{
+
+.iPad-end-p {
   color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: linear-gradient(to right,  #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-	/* !!!!!!!!background: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  /* !!!!!!!!background: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%); */
 }
 
-@keyframes slide
-{
-  from
-  {
+@keyframes slide {
+  from {
     transform: translateX(0);
   }
-  to
-  {
+
+  to {
     transform: translateX(-100%);
   }
 }
 
-.photos
-{
+.photos {
   overflow: hidden;
   padding: 12px 0;
   background: #fff;
   white-space: nowrap;
   position: relative;
 }
+
 /*!!!!!!!!!!!!!!!!!!!!  */
 .photos:before,
-.photos:after
-{
+.photos:after {
   position: absolute;
   top: 0;
   width: 250px;
@@ -454,46 +451,46 @@ body
   content: "";
   z-index: 2;
 }
-.photos:before
-{
+
+.photos:before {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);
   left: 0;
 }
-.photos:after
-{
+
+.photos:after {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
   right: 0;
 }
-.photos:hover .photos-slide
-{
+
+.photos:hover .photos-slide {
   animation-play-state: paused;
 }
-.photos-slide
-{
+
+.photos-slide {
   display: inline-block;
   animation: 15s slide infinite linear;
 }
-.photos-slide img
-{
+
+.photos-slide img {
   height: 600px;
   margin: 0 6px;
 }
+
 /*!!!!!!!!!!!!!!!!!!!!  */
-.dot
-{
+.dot {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 4px;
   margin-bottom: 15px;
 }
-.dots:hover
-{
+
+.dots:hover {
   background: #333333;
   transform: scale(185%);
 }
-.dots
-{
+
+.dots {
   transition: .3s;
   width: 8px;
   height: 8px;
@@ -501,17 +498,17 @@ body
   margin-left: 15px;
   background: #949494;
 }
-.fun
-{
+
+.fun {
   display: flex;
   margin-bottom: 50px;
 }
-.fun a
-{
+
+.fun a {
   text-decoration: none;
 }
-.fun h3
-{
+
+.fun h3 {
   color: #fff !important;
   font-family: Inter;
   font-size: 14px;
@@ -519,8 +516,8 @@ body
   line-height: 18px;
   letter-spacing: -0.2240000069141388px;
 }
-.fun__fitness
-{
+
+.fun__fitness {
   background: url('../images/fun1.png') no-repeat center / cover;
   width: 417px;
   height: 236px;
@@ -529,8 +526,8 @@ body
   align-items: end;
   justify-content: space-between;
 }
-.fun__arcade
-{
+
+.fun__arcade {
   background: url('../images/fun2.png') no-repeat center / cover;
   width: 417px;
   height: 236px;
@@ -539,8 +536,8 @@ body
   align-items: end;
   justify-content: space-between;
 }
-.fun__gregg
-{
+
+.fun__gregg {
   background: url('../images/fun4.png') no-repeat center / cover;
   width: 417px;
   height: 236px;
@@ -549,8 +546,8 @@ body
   align-items: end;
   justify-content: space-between;
 }
-.fun__tv
-{
+
+.fun__tv {
   background:
     linear-gradient(0deg, rgba(29, 29, 31, 0.5) 0%, rgba(0, 0, 0, 0) 50%),
     url('../images/fun5.png') no-repeat center / cover;
@@ -561,8 +558,8 @@ body
   align-items: end;
   justify-content: space-between;
 }
-.end-title
-{
+
+.end-title {
   font-family: Inter;
   font-size: 11.81px;
   font-weight: 400;
@@ -570,8 +567,8 @@ body
   letter-spacing: -0.11999999731779099px;
   color: #0000008F;
 }
-.end-title a
-{
+
+.end-title a {
   font-family: Inter;
   font-size: 11.81px;
   font-weight: 400;
@@ -580,42 +577,42 @@ body
   text-align: left;
   color: #454545;
 }
-.end-title__color
-{
+
+.end-title__color {
   padding-top: 17px;
   background: #F5F5F7;
 }
-.end-title button
-{
+
+.end-title button {
   border: 2px solid #CECECF;
   background: #CECECF;
   width: 980px;
 }
-.small
-{
+
+.small {
   font-family: Inter;
   font-size: 6px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: -0.11999999731779099px;
 }
-.footer
-{
+
+.footer {
   margin-top: 20px;
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
-.footer ul
-{
+
+.footer ul {
   list-style: none;
 }
-.footer a
-{
+
+.footer a {
   text-decoration: none;
 }
-.big
-{
+
+.big {
   font-family: Inter;
   font-size: 12px;
   font-weight: 600 !important;
@@ -623,8 +620,9 @@ body
   letter-spacing: -0.11999999731779099px;
   color: #000000 !important;
 }
-.footer__nav ul a
-{ padding-bottom: 10px;
+
+.footer__nav ul a {
+  padding-bottom: 10px;
   font-family: Inter;
   font-size: 11.81px;
   font-weight: 400;
@@ -632,16 +630,16 @@ body
   letter-spacing: -0.11999999731779099px;
   color: #454545;
 }
-.footer__nav ul
-{
+
+.footer__nav ul {
   display: flex;
   align-items: start;
   justify-content: start;
   flex-direction: column;
   gap: 11.6px;
 }
-.foot-end
-{
+
+.foot-end {
   padding-top: 35px;
   padding-bottom: 20px;
   font-family: Inter;
@@ -651,8 +649,8 @@ body
   letter-spacing: -0.11999999731779099px;
   color: #6C6C6D;
 }
-.foot-end span
-{
+
+.foot-end span {
   font-family: Inter;
   font-size: 11.81px;
   font-weight: 400;
@@ -664,7 +662,7 @@ body
   text-decoration-skip-ink: auto;
   color: #0066CC;
 }
-.real-end
-{
+
+.real-end {
   padding-bottom: 25px;
 }
